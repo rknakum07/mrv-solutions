@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MRV Solutions – Ready to take your next big step?</title>
+  <meta name="description" content="MRV Solutions offers personalised guidance, clear strategies and dedicated support to help you achieve your goals.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- SVG sprite (arrow, check, chevron, play) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-check" viewBox="0 0 18 18"><path d="m4 9.5 3.2 3.2L14 5.8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-play" viewBox="0 0 36 36"><path d="M13 8.5v19l15-9.5-15-9.5Z" fill="currentColor"/></symbol>
+</svg>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="top">
+  <div class="container nav">
+    <a href="#top" class="logo logo--nav" aria-label="MRV Solutions home">
+      <img src="assets/logo.png" alt="MRV Solutions">
+    </a>
+
+    <nav class="nav__links" id="nav-menu" aria-label="Primary">
+      <a href="#top">Home</a>
+      <a href="#about">About</a>
+      <a href="#approach">Our approach</a>
+      <a href="#why">Why MRV</a>
+      <a href="#contact">Contact</a>
+      <a href="#approach" class="btn btn--red nav__cta-mobile"><span class="btn__label">Get started</span><span class="btn__icon"><svg><use href="#i-arrow"/></svg></span></a>
+    </nav>
+
+    <a href="#approach" class="btn btn--red nav__cta"><span class="btn__label">Get started</span><span class="btn__icon"><svg><use href="#i-arrow"/></svg></span></a>
+
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero__bg" aria-hidden="true">
+  </div>
+  <div class="container hero__inner">
+    <div class="hero__text">
+      <span class="pill"><span class="pill__slash">/</span> Your journey starts here</span>
+      <h1 class="hero__title">Ready to take your next big step?</h1>
+      <p class="muted">Discover a smarter way to achieve your goals with MRV Solutions. Watch the video below to discover how we can help you move forward with the right strategy, guidance, and solutions.</p>
+
+      <a href="#approach" class="btn btn--red"><span class="btn__label">Get started</span><span class="btn__icon"><svg><use href="#i-arrow"/></svg></span></a>
+
+      <ul class="points">
+        <li><span class="check"><svg><use href="#i-check"/></svg></span>Personalised solutions</li>
+        <li><span class="check"><svg><use href="#i-check"/></svg></span>Dedicated guidance</li>
+        <li><span class="check"><svg><use href="#i-check"/></svg></span>You stay in control</li>
+      </ul>
+    </div>
+
+    <div class="video" id="video" data-video-src="">
+      <img src="assets/video-thumb.png" alt="Introduction video thumbnail" class="video__thumb">
+      <button class="video__play" type="button" aria-label="Play video"><svg><use href="#i-play"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOGOS ============ -->
+<section class="logos">
+  <div class="container">
+    <p class="logos__title">Building stronger partnerships together.</p>
+    <ul class="logos__list">
+      <li><img src="assets/logo-fancentro.svg" alt="Fancentro" width="119" height="14"></li>
+      <li><img src="assets/logo-onlyfans.svg" alt="OnlyFans" width="128" height="30"></li>
+      <li><img src="assets/logo-infloww.svg" alt="Infloww" width="128" height="28"></li>
+      <li><img src="assets/logo-mym.svg" alt="MYM" width="74" height="28"></li>
+      <li><img src="assets/logo-passes.svg" alt="Passes" width="106" height="28"></li>
+      <li><img src="assets/logo-fanvue.svg" alt="Fanvue" width="118" height="28"></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="container stack-48">
+    <div class="about__head">
+      <div class="title-block">
+        <span class="pill"><span class="pill__slash">/</span> Your goals, our expertise.</span>
+        <h2>Your goals. our expertise. a clearer path forward.</h2>
+        <p class="muted">At MRV Solutions, we believe that achieving meaningful results starts with understanding your goals. Our approach focuses on identifying your needs, understanding your challenges, and finding the right way forward. Whether you're just getting started or looking to take the next step, we're here to help you make informed decisions.</p>
+      </div>
+      <a href="#approach" class="btn btn--red"><span class="btn__label">Our approach</span><span class="btn__icon"><svg><use href="#i-arrow"/></svg></span></a>
+    </div>
+
+    <div class="about__grid">
+      <div class="about__img"><img src="assets/about.png" alt="MRV Solutions consultant at work"></div>
+      <article class="usp">
+        <p class="usp__num"><span data-count="1200">1,200</span><em>+</em></p>
+        <h3>Goals achieved</h3>
+        <p class="muted">Real progress. Meaningful results. Lasting impact.</p>
+      </article>
+      <article class="usp">
+        <p class="usp__num"><span data-count="10">10</span><em>+</em></p>
+        <h3>Years of proven expertise</h3>
+        <p class="muted">Expertise you can trust. Guidance you can count on.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MULTI-STEP FORM ============ -->
+<section class="form-section" id="approach">
+  <div class="container form-section__inner">
+    <div class="title-block form-section__title">
+      <span class="pill"><span class="pill__slash">/</span> let’s find the right solution</span>
+      <h2>Let's find the right solution for you</h2>
+      <p class="muted">Answer a few quick questions so we can better understand your goals and recommend the next steps.</p>
+    </div>
+
+    <div class="form-card">
+      <div class="form-card__head">
+        <h3>We growth Creators to top 10% earners on OnlyFans</h3>
+        <p class="muted">Tell us what matters most to you so we can understand your goals.</p>
+      </div>
+
+      <form id="lead-form" action="https://formsubmit.co/vrteam.designs@gmail.com" method="POST" novalidate>
+        <!-- FormSubmit settings -->
+        <input type="hidden" name="_subject" value="New lead from MRV Solutions website">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="field">
+          <label for="onlyfans">Are you already on OnlyFans?*</label>
+          <div class="select"><select id="onlyfans" name="onlyfans" required>
+            <option>Yes</option><option>No</option><option>Not yet, but planning to</option>
+          </select></div>
+        </div>
+
+        <div class="field">
+          <label for="instagram">Instagram Handle*</label>
+          <input id="instagram" name="instagram" type="text" placeholder="Instagram Handle" autocomplete="off" required>
+          <span class="field__error" role="alert"></span>
+        </div>
+
+        <div class="field">
+          <label for="email">What’s your best email?*</label>
+          <input id="email" name="email" type="email" placeholder="Enter Email" autocomplete="email" required>
+          <span class="field__error" role="alert"></span>
+        </div>
+
+        <div class="field">
+          <label for="phone">What’s the best number to reach you on?*</label>
+          <input id="phone" name="phone" type="tel" placeholder="Phone number" autocomplete="tel" required>
+          <span class="field__error" role="alert"></span>
+        </div>
+
+        <div class="field">
+          <label for="struggle">What’s your biggest struggle right now?</label>
+          <div class="select"><select id="struggle" name="struggle">
+            <option>Creating Content</option><option>Growing my audience</option><option>Managing fans &amp; messages</option><option>Pricing &amp; monetisation</option><option>Something else</option>
+          </select></div>
+        </div>
+
+        <div class="field">
+          <label for="revenue">OnlyFans revenue last month?*</label>
+          <div class="select"><select id="revenue" name="revenue" required>
+            <option>Under $5k</option><option selected>$5k - $15K</option><option>$15k - $50K</option><option>$50K+</option>
+          </select></div>
+        </div>
+
+        <div class="field">
+          <label for="weekly">If we gave you ideas + structure, would you record content weekly?*</label>
+          <div class="select"><select id="weekly" name="weekly" required>
+            <option>Yes — happy to follow a plan</option><option>Maybe — depends on the plan</option><option>No — not right now</option>
+          </select></div>
+        </div>
+
+        <button type="submit" class="btn btn--red"><span class="btn__label">Join us</span><span class="btn__icon"><svg><use href="#i-arrow"/></svg></span></button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY CHOOSE ============ -->
+<section class="section" id="why">
+  <div class="container stack-48">
+    <div class="split-title">
+      <div class="title-block">
+        <span class="pill"><span class="pill__slash">/</span> Your goals, our expertise.</span>
+        <h2>More than just a service. a partner in your progress.</h2>
+      </div>
+      <p class="muted">We go beyond services by offering personalised guidance, clear strategies, and dedicated support to help you achieve your goals with confidence.</p>
+    </div>
+
+    <div class="why">
+      <div class="why__col why__col--left">
+        <article class="why-card why-card--right">
+          <span class="icon-dot"><img src="assets/icon-personalised.svg" alt=""></span>
+          <div><h3>Personalised approach</h3><p class="muted">Solutions aligned with your individual goals.</p></div>
+        </article>
+        <article class="why-card why-card--right">
+          <span class="icon-dot"><img src="assets/icon-strategy.svg" alt=""></span>
+          <div><h3>Focused strategy</h3><p class="muted">A structured approach designed around your needs.</p></div>
+        </article>
+      </div>
+
+      <div class="why__img">
+        <img src="assets/why-choose.png" alt="Two creators collaborating">
+        <span class="chip chip--a"><span class="check check--sm"><svg><use href="#i-check"/></svg></span>Open communication</span>
+        <span class="chip chip--b"><span class="check check--sm"><svg><use href="#i-check"/></svg></span>Smart planning</span>
+      </div>
+
+      <div class="why__col why__col--right">
+        <article class="why-card">
+          <span class="icon-dot"><img src="assets/icon-communication.svg" alt=""></span>
+          <div><h3>Clear communication</h3><p class="muted">Honest guidance and transparent expectations.</p></div>
+        </article>
+        <article class="why-card">
+          <span class="icon-dot"><img src="assets/icon-support.svg" alt=""></span>
+          <div><h3>Dedicated Support</h3><p class="muted">Guidance to help you move forward with confidence.</p></div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section section--tight-bottom" id="testimonials">
+  <div class="container stack-48">
+    <div class="split-title">
+      <div class="title-block">
+        <span class="pill"><span class="pill__slash">/</span> Real experiences with people</span>
+        <h2>Real experiences. Real people. Real feedback.</h2>
+      </div>
+      <p class="muted">Don't just take our word for it. Hear directly from people who have experienced working with MRV Solutions.</p>
+    </div>
+
+    <div class="carousel">
+      <div class="testimonials" id="testimonials-track" tabindex="0" role="region" aria-label="Client testimonials">
+        <figure class="t-card">
+          <div class="t-card__img"><img src="assets/testimonial-1.png" alt="Earnings dashboard screenshot" class="fit"></div>
+          <blockquote>$3,072,005. one account, from Zero</blockquote>
+          <figcaption>Emily T.</figcaption>
+        </figure>
+        <figure class="t-card">
+          <div class="t-card__img"><img src="assets/testimonial-2.png" alt="Growth statistics screenshot" class="crop-2"></div>
+          <blockquote>$5,053.92 with 138.5% Growth in last 24 Hours</blockquote>
+          <figcaption>Maria K.</figcaption>
+        </figure>
+        <figure class="t-card">
+          <div class="t-card__img t-card__img--blue"><img src="assets/testimonial-3.png" alt="Creator ranking screenshot" class="crop-3"></div>
+          <blockquote>Top 0.14% of all creators in platform</blockquote>
+          <figcaption>Sania V.</figcaption>
+        </figure>
+      </div>
+      <div class="carousel__controls">
+        <button type="button" class="carousel__btn" data-dir="-1" aria-label="Previous testimonial" aria-controls="testimonials-track">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button type="button" class="carousel__btn carousel__btn--next" data-dir="1" aria-label="Next testimonial" aria-controls="testimonials-track">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta" id="contact">
+  <div class="container cta__inner">
+    <div class="cta__text">
+      <div class="stack-12">
+        <h2>Your next chapter starts with one conversation.</h2>
+        <p>You've seen what MRV Solutions is about. Now let's understand what you're looking to achieve. Complete our short questionnaire and take the first step towards finding the right solution.</p>
+      </div>
+      <a href="#approach" class="btn btn--black"><span class="btn__label">Let's get started</span><span class="btn__icon"><svg><use href="#i-arrow"/></svg></span></a>
+    </div>
+
+    <div class="cta__visual">
+      <img class="cta__person" src="assets/cta-woman.png" alt="">
+      <ul class="cta__card">
+        <li><span class="check"><svg><use href="#i-check"/></svg></span>Goals identified</li>
+        <li><span class="check"><svg><use href="#i-check"/></svg></span>Opportunities discovered</li>
+        <li><span class="check"><svg><use href="#i-check"/></svg></span>Progress tracking</li>
+      </ul>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="#top" class="logo logo--footer" aria-label="MRV Solutions home"><img src="assets/logo.png" alt="MRV Solutions"></a>
+        <div class="stack-6">
+          <p class="footer__tagline">Moving forward. Together.</p>
+          <p class="muted">The right strategy. The right guidance. A clearer path forward.</p>
+        </div>
+        <div class="social">
+          <a href="#" class="social__btn social__btn--red" aria-label="Instagram"><img src="assets/social-1.svg" alt=""></a>
+          <a href="#" class="social__btn" aria-label="Facebook"><img src="assets/social-2.svg" alt=""></a>
+          <a href="#" class="social__btn" aria-label="X"><img class="social__small" src="assets/social-3.svg" alt=""></a>
+        </div>
+      </div>
+
+      <div class="footer__links">
+        <div>
+          <h4>Explore MRV</h4>
+          <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#approach">Our Approach</a></li>
+            <li><a href="#why">Why Choose Us</a></li>
+            <li><a href="#testimonials">Client Testimonials</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a></li>
+            <li><a href="tel:+10000000000">+1 (000) 000-0000</a></li>
+            <li>Las Vegas, USA</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© 2026 <strong>MRV Solutions</strong>. All Rights Reserved.</p>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms &amp; Conditions</a></li>
+        <li><a href="#">Cookie Policy</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
