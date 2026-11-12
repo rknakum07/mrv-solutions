@@ -102,8 +102,8 @@
   }
 
   /* ---------- Lead form validation ---------- */
-  // FormSubmit AJAX endpoint – submissions are emailed to this address
-  var FORM_ENDPOINT = 'https://formsubmit.co/ajax/vrteam.designs@gmail.com';
+  // Primary FormSubmit recipient for website lead submissions
+  var FORM_ENDPOINT = 'https://formsubmit.co/ajax/Matthewmrvsolutions@gmail.com';
   var form = document.getElementById('lead-form');
   var status = document.getElementById('form-status');
 
